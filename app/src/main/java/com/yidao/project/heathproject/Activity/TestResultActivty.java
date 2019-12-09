@@ -47,7 +47,7 @@ public class TestResultActivty extends BaseActivity {
     TextView mTvHeight;
     @BindView(R.id.tv_weight)
     TextView mTvWeight;
-        @BindView(R.id.tv_bmi)
+    @BindView(R.id.tv_bmi)
     TextView mTvBmi;
     @BindView(R.id.tv_index)
     TextView mTvIndex;
@@ -107,7 +107,7 @@ public class TestResultActivty extends BaseActivity {
             setNlPushUpData(mNumber);
         }else if (tv_name.equals("柔韧测试")){
             setRrTestData(mNumber);
-        }else if (tv_name.equals("肌肉能力")){
+        }else if (tv_name.equals("肌肉力量")){
             setJiRouData(mNumber);
         }else if (tv_name.equals("平衡测试")){
             getPhTestData(mNumber);

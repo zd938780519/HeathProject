@@ -45,7 +45,8 @@ public class BodyShapeAdapter extends RecyclerView.Adapter<BodyShapeAdapter.View
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         viewHolder.mTvName.setText(mTitleData.get(i).getTitle());
-        viewHolder.mTvContext.setText(mTitleData.get(i).getContent());
+        String  context = mTitleData.get(i).getContent().replace("\n", "\n");
+        viewHolder.mTvContext.setText(context);
         viewHolder.mIvRun.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

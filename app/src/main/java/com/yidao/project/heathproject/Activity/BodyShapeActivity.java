@@ -220,7 +220,7 @@ public class BodyShapeActivity extends BaseActivity {
                 FragmentManager cardfacefm = getSupportFragmentManager();
                 NovemberDialogs mNovemberDialogs = new NovemberDialogs();
                 Bundle bundle = new Bundle();
-                bundle.putString("tv_name", "肌肉能力");
+                bundle.putString("tv_name", "肌肉力量");
                 bundle.putString("tv_type", "力度");
                 bundle.putString("tv_unit", "kg");
                 mNovemberDialogs.setArguments(bundle);

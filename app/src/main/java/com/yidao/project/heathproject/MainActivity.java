@@ -347,9 +347,9 @@ public class MainActivity extends BaseActivity {
                                     tvYunnum.setText("已完成");
                                 }
 
-                                if (SubPlanNum == SubTotalNum && TotalNum ==  PlanNum){
+//                                if (SubPlanNum == SubTotalNum && TotalNum ==  PlanNum){
                                     ivGuide.setVisibility(View.VISIBLE);
-                                }
+//                                }
 
                                 MainAdapter mMainAdapter = new MainAdapter(instance, mSubhumanData,mRecyclerViewItemClickListener);
                                 mRecycle.setAdapter(mMainAdapter);
