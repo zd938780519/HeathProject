@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_btn_f7"
+            android:layout_marginTop="@dimen/item_offset_16dp"
+            android:layout_marginLeft="@dimen/item_offset_9dp"
+            android:layout_marginRight="@dimen/item_offset_4dp"
+            android:layout_weight="1">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_text"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/item_offset_16dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="身体形态"
+                        android:textColor="@color/color_222222"
+                        android:textSize="@dimen/item_offset_17dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="身高、体重"
+                        android:layout_marginTop="@dimen/item_offset_12dp"
+                        android:textColor="@color/color_aaaaaa"
+                        android:textSize="@dimen/item_offset_12sp" />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/iv_form"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/item_offset_14dp"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:background="@mipmap/img_1"/>
+
+
+
+                <TextView
+                    android:layout_below="@+id/iv_form"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="立即测试"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/item_offset_20dp"
+                    android:layout_marginRight="@dimen/item_offset_22dp"
+                    android:textColor="@color/color_4ad8a8"
+                    android:layout_marginBottom="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_12sp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="@dimen/item_offset_16dp"
+            android:layout_marginRight="@dimen/item_offset_9dp"
+            android:layout_marginLeft="@dimen/item_offset_4dp"
+            android:background="@drawable/shape_btn_f7">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_cardiopu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_offset_16dp"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="心肺机能"
+                        android:textColor="@color/color_222222"
+                        android:textSize="@dimen/item_offset_17dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12min跑、哈佛台阶实验"
+                        android:layout_marginTop="@dimen/item_offset_12dp"
+                        android:textColor="@color/color_aaaaaa"
+                        android:textSize="@dimen/item_offset_12sp" />
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/cardiopu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/item_offset_14dp"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:background="@mipmap/img_2"/>
+
+
+
+                <TextView
+                    android:layout_below="@+id/cardiopu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="立即测试"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="@dimen/item_offset_20dp"
+                    android:layout_marginRight="@dimen/item_offset_22dp"
+                    android:textColor="@color/color_4ad8a8"
+                    android:layout_marginBottom="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_12sp" />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

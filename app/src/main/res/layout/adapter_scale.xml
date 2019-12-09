@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f3f3f3">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/item_offset_5dp"
+        android:layout_marginLeft="@dimen/item_offset_5dp"
+        android:layout_marginTop="@dimen/item_offset_5dp"
+        android:layout_marginBottom="@dimen/item_offset_5dp"
+        android:background="@drawable/shape_btn_white5">
+
+
+
+        <TextView
+            android:id="@+id/tv_probalm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1、医生是否曾经告诉过你患有心脏病并且只能参加医生推荐活动?"
+            android:textColor="@color/color_222222"
+            android:layout_marginLeft="@dimen/item_offset_11dp"
+            android:layout_marginRight="@dimen/item_offset_17dp"
+            android:textSize="@dimen/item_offset_15sp" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_offset_1dp"
+            android:layout_marginTop="@dimen/item_offset_20dp"
+            android:background="@color/color_f3f3f3"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/item_offset_22dp"
+            android:layout_marginTop="@dimen/item_offset_20dp">
+            <LinearLayout
+                android:id="@+id/ll_flase"
+                android:layout_width="@dimen/item_offset_72dp"
+                android:layout_height="@dimen/item_offset_30dp"
+                android:gravity="center"
+                android:background="@drawable/shape_btn_black">
+
+
+                <TextView
+                    android:id="@+id/tv_flase"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/item_offset_14dp"
+                    android:textColor="@color/white"
+                    android:text="否"/>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_ture"
+                android:layout_width="@dimen/item_offset_72dp"
+                android:layout_height="@dimen/item_offset_30dp"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/item_offset_90dp"
+                android:background="@drawable/shape_btn_black">
+
+
+                <TextView
+                    android:id="@+id/tv_ture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/item_offset_14dp"
+                    android:textColor="@color/white"
+                    android:text="是"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

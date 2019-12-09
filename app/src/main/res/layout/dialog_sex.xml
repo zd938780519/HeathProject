@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/shape_btn_white10">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/item_offset_20dp"
+        android:layout_marginLeft="@dimen/item_offset_20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="身高"-->
+                <!--android:layout_marginTop="@dimen/item_offset_26dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:textColor="@color/color_20d195"-->
+                <!--android:textSize="19sp" />-->
+
+
+            <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/iv_close"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="@dimen/item_offset_20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginRight="@dimen/item_offset_20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentRight="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@mipmap/icon_c_2"/>&ndash;&gt;-->
+
+        <!--</RelativeLayout>-->
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/item_offset_50dp"
+            android:gravity="center_vertical"
+
+            android:layout_marginTop="@dimen/item_offset_30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/item_offset_15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="52dp"
+                android:text="男"
+                android:drawablePadding="@dimen/item_offset_10dp"
+                android:drawableLeft="@mipmap/img_7"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/text_body_17sp" />
+
+
+            <TextView
+                android:id="@+id/tv_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/item_offset_10dp"
+                android:layout_marginLeft="@dimen/item_offset_28dp"
+                android:text="女"
+                android:drawableLeft="@mipmap/img_7"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/text_body_17sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/color_f3f3f3"
+            android:layout_height="@dimen/item_offset_1dp"/>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/item_offset_50dp"
+            android:gravity="center_vertical"
+          >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="年龄"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/item_offset_15sp" />
+
+
+            <EditText
+                android:id="@+id/et_weight"
+                android:layout_width="@dimen/item_offset_120dp"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:layout_marginLeft="@dimen/item_offset_40dp"
+                android:hint="测试人年龄"
+                android:inputType="number"
+                android:background="@null"
+             />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/color_f3f3f3"
+            android:layout_height="@dimen/item_offset_1dp"/>
+
+
+        <ImageView
+            android:id="@+id/iv_que"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/item_offset_30dp"
+            android:layout_marginBottom="@dimen/item_offset_28dp"
+
+            android:layout_height="wrap_content"
+            android:background="@mipmap/btn_qd_xz_13"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

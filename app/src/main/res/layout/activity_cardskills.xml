@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+    <include layout="@layout/include_toolbar"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/item_offset_5dp"
+                android:layout_marginTop="@dimen/item_offset_5dp"
+                android:layout_marginRight="@dimen/item_offset_5dp"
+                android:background="@drawable/shape_btn_white5">
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12min跑"
+                        android:layout_marginTop="@dimen/item_offset_26dp"
+                        android:textColor="@color/color_222222"
+                        android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_results"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12min跑了1810m"
+                    android:layout_marginTop="@dimen/item_offset_30dp"
+                    android:textColor="@color/color_20d195"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="得分：4分 良好"
+                    android:layout_marginTop="@dimen/item_offset_9dp"
+                    android:textColor="@color/color_20d195"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心肺机能优秀，继续保持"
+                    android:textColor="@color/color_20d195"
+
+                    android:layout_marginTop="@dimen/item_offset_9dp"
+                    android:layout_marginBottom="@dimen/item_offset_25dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:id="@+id/iv_measure"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/item_offset_40dp"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_marginBottom="@dimen/item_offset_25dp"
+                    android:background="@mipmap/btn_cxcs_15"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/item_offset_5dp"
+                android:layout_marginRight="@dimen/item_offset_5dp"
+                android:layout_marginTop="@dimen/item_offset_5dp"
+                android:background="@drawable/shape_btn_white5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12min跑"
+                    android:layout_marginTop="@dimen/item_offset_12dp"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:textColor="@color/color_20d195"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_offset_14dp"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:text="保持自然放松，手臂放松，摆动自然。主要是大腿的摆动，跨步适中不要太大，脚后跟着地后要迅速的过渡到全脚掌着地，这样可以保护我们的膝关节和踝关节。保持跑步时的弹力，绷紧小腹、保持匀速呼吸，一次完整的呼吸的频率大概为六步。注意事项：准备运动服装和运动鞋，选择合适的运动场地。"
+                    android:textColor="@color/color_666666"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/iv_run"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_offset_25dp"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:layout_marginBottom="@dimen/item_offset_20dp"
+                    android:background="@mipmap/btn_lj_12"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/item_offset_5dp"
+                android:layout_marginRight="@dimen/item_offset_5dp"
+                android:layout_marginTop="@dimen/item_offset_5dp"
+                android:background="@drawable/shape_btn_white5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="哈佛台阶实验"
+                    android:layout_marginTop="@dimen/item_offset_12dp"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:textColor="@color/color_20d195"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_hafo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_offset_14dp"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:text="动作要领：要求上的时候双脚站在台中央；下时全脚掌着地，身体和膝应充分伸直，不得跳跃和故意用力登踩，但允许换脚1-2次。
+        测试方法：使用台阶(男子台高30厘米,女子台高25厘米)、秒表和节拍器(频率为120次/分)或台阶试验仪测试。测试时,受试者直立站在台阶前方(图4-①,按照节拍器发出的提示声做上下台阶运动。当节拍器发出第一声时,一只脚踏上台阶(图40),第二声时,另一只脚踏上台阶,双腿伸直(图4-③),第三声时,先踏上台阶的脚下台阶(图4-④),第四声时,另一只脚下台阶(图4-⑤),连续重复3分钟后,受试者立刻静坐在椅子上,记录运动停止后1分到1分半钟、2分到2分半钟、3分到3分半钟的三次脉搏数。如果受试者3次不能按照节，拍器发出的节奏完成上下台阶或不能坚持运动,应立即停止运动,记录运动持续时间,并以同样方法记录三次脉搏数
+        "
+                    android:textColor="@color/color_666666"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/iv_hafo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/item_offset_25dp"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:layout_marginBottom="@dimen/item_offset_20dp"
+                    android:background="@mipmap/btn_lj_12"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

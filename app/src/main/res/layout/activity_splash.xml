@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_ground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/item_offset_160dp"
+            android:background="@mipmap/img_qdy_1"/>
+
+
+        <TextView
+            android:layout_above="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_offset_20dp"
+            android:text="健康生活，健康检测"
+            android:textColor="@color/color_24D196"
+            android:textSize="@dimen/text_body_17sp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="动动手指，提高品质"
+            android:textColor="@color/color_9B9B9B"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/item_offset_14sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="90dp" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

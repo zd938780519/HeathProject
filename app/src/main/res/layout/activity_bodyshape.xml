@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+    <include layout="@layout/include_toolbar"/>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="@drawable/shape_btn_white5"-->
+        <!--android:layout_marginTop="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_type"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="身高"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_12dp"-->
+            <!--android:textColor="@color/color_20d195"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_context"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_15dp"-->
+            <!--android:text="测试时,受试者赤脚、呈立正姿势站在身高计的底板上(躯干挺直,上肢自然下垂,脚跟并拢,脚尖分开约60℃,脚跟、骶骨部及两肩胛间与身高计的立柱接触,头部正直,两眼平视前方,耳屏上缘与眼眶下缘最低点呈水平。记录以厘米为单位,保留小数点后1位"-->
+            <!--android:textColor="@color/color_666666"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_type1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="体重"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_20dp"-->
+            <!--android:textColor="@color/color_20d195"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_context1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_15dp"-->
+            <!--android:text="测试时，受试者自然站在体重秤中央，站稳后，读取数据，记录千克为单位，保留小数点后1位。"-->
+            <!--android:textColor="@color/color_666666"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/tv_begin"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginTop="@dimen/item_offset_25dp"-->
+            <!--android:layout_marginBottom="@dimen/item_offset_40dp"-->
+            <!--android:background="@mipmap/btn_lj_12"/>-->
+
+
+
+
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

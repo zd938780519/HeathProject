@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+    <include layout="@layout/include_toolbar"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/item_offset_5dp"
+        android:layout_marginTop="@dimen/item_offset_5dp"
+        android:layout_marginRight="@dimen/item_offset_5dp"
+        android:background="@drawable/shape_btn_white5">
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:layout_marginTop="@dimen/item_offset_20dp">
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="身高"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/item_offset_15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.75m"
+                android:layout_marginLeft="@dimen/item_offset_20dp"
+                android:textColor="@color/color_20d195"
+                android:textSize="@dimen/item_offset_15sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:layout_marginTop="@dimen/item_offset_13dp">
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="体重"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/item_offset_15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/item_offset_20dp"
+                android:text="135kg"
+                android:textColor="@color/color_20d195"
+                android:textSize="@dimen/item_offset_15sp" />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:id="@+id/tv_bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总距离："
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/item_offset_30dp"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:textColor="@color/color_20d195"
+            android:textSize="@dimen/item_offset_15sp" />
+
+
+        <TextView
+            android:id="@+id/tv_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正常 不错 比较标准！ 继续保持！"
+            android:textColor="@color/color_20d195"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:layout_marginTop="@dimen/item_offset_9dp"
+            android:layout_marginBottom="@dimen/item_offset_25dp"
+            android:textSize="@dimen/item_offset_15sp" />
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/iv_measure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/item_offset_40dp"
+        android:layout_marginLeft="@dimen/item_offset_15dp"
+        android:layout_marginRight="@dimen/item_offset_15dp"
+        android:background="@mipmap/btn_cxcs_15"/>
+
+
+
+
+</LinearLayout>

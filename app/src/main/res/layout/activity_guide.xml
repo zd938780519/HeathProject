@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_f3f3f3">
+
+    <include layout="@layout/include_toolbar"/>
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/item_offset_38dp"-->
+        <!--android:background="@drawable/shape_btn_white_flat"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginTop="@dimen/item_offset_5dp"-->
+        <!--android:gravity="center_vertical">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="适宜心率"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:textColor="@color/color_222222"-->
+            <!--android:textSize="@dimen/item_offset_14sp" />-->
+    <!--</LinearLayout>-->
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:background="@drawable/shape_btn_white_top">-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="您进行体育锻炼”适宜心率”范围为68次/分钟——-->
+<!--次/分钟之间，锻炼时至少要保持20min以上。"-->
+            <!--android:layout_marginTop="@dimen/item_offset_13dp"-->
+            <!--android:textColor="@color/color_666666"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginBottom="@dimen/item_offset_20dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/item_offset_38dp"-->
+        <!--android:background="@drawable/shape_btn_white_flat"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginTop="@dimen/item_offset_10dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="体重指数"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:textColor="@color/color_222222"-->
+            <!--android:textSize="@dimen/item_offset_14sp" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_more"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="更多"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:drawablePadding="@dimen/item_offset_5dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:drawableRight="@mipmap/icon_jr_5"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/item_offset_12sp" />-->
+    <!--</RelativeLayout>-->
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="@drawable/shape_btn_white_top">-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="体重指数低于18.5的人群，在饮食规律的情况下注意蛋白质的补充，结合中高强度的训练，目标增加肌肉、提高抵抗力、身体素质的全面提升..."-->
+            <!--android:textColor="@color/color_666666"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_13dp"-->
+            <!--android:layout_marginBottom="@dimen/item_offset_20dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/item_offset_38dp"-->
+        <!--android:background="@drawable/shape_btn_white_flat"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginTop="@dimen/item_offset_10dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="柔韧素质"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:textColor="@color/color_222222"-->
+            <!--android:textSize="@dimen/item_offset_14sp" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_more1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="更多"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:drawablePadding="@dimen/item_offset_5dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:drawableRight="@mipmap/icon_jr_5"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/item_offset_12sp" />-->
+    <!--</RelativeLayout>-->
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="@drawable/shape_btn_white_top">-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="抬手侧压腿动作要领:双手高举在自己的两侧太阳穴处，掌心朝外，双腿宽距张开，动作开始时朝一侧降低重心将腿压下去，交替进行，这个动作主要可以拉伸到..."-->
+            <!--android:textColor="@color/color_666666"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_13dp"-->
+            <!--android:layout_marginBottom="@dimen/item_offset_20dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/item_offset_38dp"-->
+        <!--android:background="@drawable/shape_btn_white_flat"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginTop="@dimen/item_offset_10dp">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="有氧耐力"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:textColor="@color/color_222222"-->
+            <!--android:textSize="@dimen/item_offset_14sp" />-->
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_more2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="更多"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:drawablePadding="@dimen/item_offset_5dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:drawableRight="@mipmap/icon_jr_5"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="@dimen/item_offset_12sp" />-->
+    <!--</RelativeLayout>-->
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/item_offset_5dp"-->
+        <!--android:layout_marginRight="@dimen/item_offset_5dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:background="@drawable/shape_btn_white_top">-->
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="游泳：测试时受试者自愿选择一种泳姿，在水质较好的室内游泳馆进行。-->
+<!--游速快，中等强度，心率控制在120—140之间。每..."-->
+            <!--android:textColor="@color/color_666666"-->
+            <!--android:layout_marginLeft="@dimen/item_offset_10dp"-->
+            <!--android:layout_marginTop="@dimen/item_offset_13dp"-->
+            <!--android:layout_marginBottom="@dimen/item_offset_20dp"-->
+            <!--android:layout_marginRight="@dimen/item_offset_10dp"-->
+            <!--android:textSize="@dimen/item_offset_15sp" />-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      android:background="@color/color_24D196">
+
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/circle_head"
+          android:layout_width="@dimen/item_offset_40dp"
+          android:layout_marginTop="@dimen/item_offset_25dp"
+          android:layout_marginLeft="@dimen/item_offset_16dp"
+          android:layout_height="@dimen/item_offset_40dp"
+          android:background="@mipmap/img_avatar_1"/>
+
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/item_offset_35dp"
+          android:text=""
+          android:layout_centerHorizontal="true"
+          android:textColor="@color/white"
+          android:textSize="@dimen/item_offset_16sp" />
+
+  </RelativeLayout>
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/iv_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/item_offset_10dp"
+            android:layout_marginRight="@dimen/item_offset_2dp"
+            android:layout_marginLeft="@dimen/item_offset_2dp"
+            android:background="@mipmap/banner_1"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_offset_5dp"
+            android:layout_marginRight="@dimen/item_offset_5dp"
+            android:background="@drawable/shape_btn_white5"
+            android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_offset_45dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="运动风险评估"
+                android:layout_marginLeft="@dimen/item_offset_10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color_222222"
+                android:textSize="@dimen/item_offset_16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_over"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已完成"
+                android:textColor="@color/color_222222"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/item_offset_10dp"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/item_offset_13sp" />
+
+        </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/item_offset_45dp">
+
+                <TextView
+                    android:id="@+id/tv_prepare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="活动准备"
+                    android:textColor="@color/color_888888"
+                    android:textSize="@dimen/item_offset_15dp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="病史"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_888888"
+                    android:textSize="@dimen/item_offset_15dp" />
+
+
+
+
+
+                <TextView
+                    android:id="@+id/tv_symptoms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="症状"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_888888"
+                    android:textSize="@dimen/item_offset_15dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="@dimen/item_offset_45dp">
+
+                <TextView
+                    android:id="@+id/tv_problem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="其他健康问题"
+                    android:textColor="@color/color_888888"
+                    android:textSize="@dimen/item_offset_15dp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_painstak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心血管危险因素"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_888888"
+                    android:textSize="@dimen/item_offset_15dp" />
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:textColor="@color/color_888888"
+                    android:textSize="@dimen/item_offset_15dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_offset_5dp"
+            android:layout_marginRight="@dimen/item_offset_5dp"
+        android:background="@drawable/shape_btn_white5"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_45dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运动功能测试"
+                    android:layout_marginLeft="@dimen/item_offset_10dp"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_16sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_yunnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="立即完成(1/6)"
+                    android:textColor="@color/color_222222"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_10dp"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/item_offset_13sp" />
+
+            </RelativeLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+
+            <!--<include layout="@layout/mainone_layout"/>-->
+
+
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/item_offset_20dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

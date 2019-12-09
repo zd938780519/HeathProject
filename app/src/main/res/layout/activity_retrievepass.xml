@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_backIamge"
+        android:layout_width="@dimen/item_offset_30dp"
+        android:layout_height="@dimen/item_offset_30dp"
+        android:layout_marginTop="@dimen/item_offset_10dp"
+        android:layout_marginLeft="@dimen/item_offset_10dp">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/fanhui" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/pass_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/item_offset_10dp"
+        android:text="@string/zhaohui"
+        android:textColor="@color/black"
+        android:textSize="@dimen/item_offset_17sp" />
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/ll_phone"
+        android:layout_marginTop="@dimen/item_offset_30dp"
+        android:layout_marginLeft="@dimen/item_offset_40dp"
+        android:layout_marginRight="@dimen/item_offset_40dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shape_btn_white_black">
+
+
+
+        <TextView
+            android:id="@+id/tv_bianbao"
+            android:layout_width="@dimen/item_offset_40dp"
+            android:layout_height="@dimen/item_offset_30dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:text="@string/bianhao"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_toRightOf="@+id/tv_bianbao"
+            android:layout_width="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:layout_height="@dimen/item_offset_30dp"
+            android:background="@color/color_E7E7E7"/>
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_toRightOf="@+id/line"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="手机号"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:textColor="@color/color_1A1B1F"
+            android:textColorHint="@color/color_A6A6A6"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_toLeftOf="@+id/mCode"
+            android:layout_width="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/item_offset_10dp"
+            android:layout_height="@dimen/item_offset_30dp"
+            android:background="@color/color_E7E7E7"/>
+
+
+        <TextView
+            android:id="@+id/mCode"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/item_offset_10dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/item_offset_14sp"
+            android:textColor="@color/color_1A1B1F"
+            android:text="@string/fasong"/>
+
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/item_offset_40dp"
+        android:layout_marginRight="@dimen/item_offset_40dp"
+        android:layout_marginTop="@dimen/item_offset_20dp"
+        android:background="@drawable/shape_btn_white_black">
+
+
+        <EditText
+            android:id="@+id/et_code"
+            android:layout_marginLeft="@dimen/item_offset_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:hint="请输入验证码"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="@color/color_1A1B1F"
+            android:textColorHint="@color/color_A6A6A6"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_marginLeft="@dimen/item_offset_40dp"
+        android:layout_marginRight="@dimen/item_offset_40dp"
+        android:layout_marginTop="@dimen/item_offset_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_btn_white_black"
+        android:paddingLeft="@dimen/item_offset_10dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/color_1A1B1F"
+        android:textColorHint="@color/color_A6A6A6"
+        android:textSize="14sp" />
+
+
+
+    <EditText
+        android:id="@+id/next_password"
+        android:layout_marginLeft="@dimen/item_offset_40dp"
+        android:layout_marginRight="@dimen/item_offset_40dp"
+        android:layout_marginTop="@dimen/item_offset_20dp"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:paddingLeft="@dimen/item_offset_10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/shape_btn_white_black"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/color_1A1B1F"
+        android:textColorHint="@color/color_A6A6A6"
+        android:textSize="14sp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_nextpass"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginLeft="@dimen/item_offset_40dp"
+        android:layout_marginRight="@dimen/item_offset_40dp"
+        android:layout_marginTop="@dimen/item_offset_42dp"
+        android:background="@drawable/shape_btn_yellow"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/queding"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_body_14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

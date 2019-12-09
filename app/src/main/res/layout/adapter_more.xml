@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_offset_16dp">
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<View-->
+                <!--android:layout_width="@dimen/item_offset_3dp"-->
+                <!--android:layout_height="@dimen/item_offset_10dp"-->
+                <!--android:layout_marginLeft="@dimen/item_offset_16dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:background="@color/color_FFB11E"/>-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <TextView
+            android:id="@+id/neirong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_offset_16dp"
+            android:layout_marginRight="@dimen/item_offset_16dp"
+            android:text="测试时受试者自愿选择一种泳姿，在水质较好的室内游泳馆进行。
+    游速快，中等强度，心率控制在120—140之间。每次3组，1组10分钟，休息时间2分钟。"
+            android:textColor="@color/color_222222"
+            android:textSize="@dimen/item_offset_15sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

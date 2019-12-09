@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">健康运动</string>
+    <string name="userlogin">用户登录</string>
+    <string name="back_pass">找回密码</string>
+    <string name="login_habei">登录</string>
+    <string name="dianji">点击查看</string>
+
+    <string name="yonghu">“用户协议”</string>
+
+    <string name="eaion">账号注册</string>
+
+
+    <string name="zhaohui">找回密码</string>
+
+    <string name="bianhao">+86</string>
+
+    <string name="fasong">发送验证码</string>
+
+    <string name="queding">确定</string>
+
+    <string name="userregister">用户注册</string>
+
+    <string name="next">下一步</string>
+
+    <string name="user_login">用户登录</string>
+
+
+    <string name="pass_name">输入密码</string>
+
+</resources>

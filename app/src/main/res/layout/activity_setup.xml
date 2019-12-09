@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+
+    <include layout="@layout/include_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/item_offset_5dp"
+        android:layout_height="@dimen/item_offset_42dp"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_offset_15dp"
+            android:textColor="@color/color_222222"
+            android:textSize="@dimen/item_offset_15sp" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_head"
+            android:layout_toLeftOf="@+id/iv_back"
+            android:layout_width="@dimen/item_offset_25dp"
+            android:layout_height="@dimen/item_offset_25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/item_offset_8dp"
+            android:src="@mipmap/img_avatar_1"/>
+
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/item_offset_15dp"
+            android:background="@mipmap/icon_jr_3"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/item_offset_1dp"
+        android:layout_height="@dimen/item_offset_42dp"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_offset_15dp"
+            android:textColor="@color/color_222222"
+            android:textSize="@dimen/item_offset_15sp" />
+
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_toLeftOf="@+id/iv_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/item_offset_8dp"
+            android:text="运动小王子"
+            android:textColor="@color/color_222222"
+            android:textSize="@dimen/item_offset_15sp"/>
+
+        <ImageView
+            android:id="@+id/iv_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/item_offset_15dp"
+            android:background="@mipmap/icon_jr_3"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_setpass"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/item_offset_6dp"
+        android:layout_height="@dimen/item_offset_42dp"
+        android:background="@color/white">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录密码设置"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_offset_15dp"
+            android:textColor="@color/color_222222"
+            android:textSize="@dimen/item_offset_15sp" />
+
+
+
+        <TextView
+            android:id="@+id/setup"
+            android:layout_toLeftOf="@+id/iv_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/item_offset_8dp"
+            android:textColor="@color/color_666666"
+            android:textSize="@dimen/item_offset_15sp"/>
+
+        <ImageView
+            android:id="@+id/iv_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/item_offset_15dp"
+            android:background="@mipmap/icon_jr_3"/>
+    </RelativeLayout>
+
+
+
+
+
+
+
+</LinearLayout>

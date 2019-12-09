@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f3f3f3">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_35dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019/02/06"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_666666"
+                    android:textSize="@dimen/item_offset_12sp" />
+
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/tv_december"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身体形态"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/icon_xl_1"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="身高(cm)"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="181"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="体重(kg)"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="60"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="心肺机能"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/icon_xl_1"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12min跑(m)"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1800"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="哈佛台阶-脉搏数(次)"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_cishu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="未完成"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="平衡能力"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/icon_xl_1"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="闭眼单脚站立"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.2秒"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="肌肉耐力"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/icon_xl_1"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+
+                android:background="@color/color_f3f3f3"/>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="仰卧起坐(女)"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100次"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="柔韧性"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/icon_xl_1"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+
+                android:background="@color/color_f3f3f3"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="坐位体前屈"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_bends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-2.5cm"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="肌肉力量"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_15dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/icon_xl_1"/>
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="握力/左"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100kg"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_1dp"
+                android:layout_marginLeft="@dimen/item_offset_23dp"
+                android:background="@color/color_f3f3f3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_offset_37dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="握力/右"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/item_offset_24dp"
+                    android:textColor="@color/color_222222"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+
+
+                <TextView
+                    android:id="@+id/tv_regith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100kg"
+                    android:textColor="@color/color_666666"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/item_offset_15dp"
+                    android:textSize="@dimen/item_offset_15sp" />
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
